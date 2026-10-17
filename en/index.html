@@ -12,15 +12,15 @@
     <p class="lang">Language: <a href="../pl/" hreflang="pl">PL</a> · <strong>EN</strong> · <a href="../uk/" hreflang="uk">UK</a> · <a href="../ru/" hreflang="ru">RU</a></p>
     <h1>Privacy Policy</h1>
     <p class="app">Salary Calculator</p>
-    <p class="updated">Last updated: 2026-10-16</p>
+    <p class="updated">Last updated: 2026-10-17</p>
     <h2>Summary</h2>
     <p>The app needs no account or sign-in and does not collect your personal data on any server of ours. We do not run a server that stores user data.</p>
     <p>The amounts you enter, saved calculations and plans stay in your phone’s storage.</p>
-    <p>Data reaches third-party services only through advertising (Google AdMob), the Premium purchase (Google Play) and, if you yourself turn on currency conversion in Premium, the download of public exchange rates from the National Bank of Poland, described below.</p>
+    <p>Data reaches third-party services only through advertising (Google AdMob), the Premium purchase (Google Play), the download of current yearly rates from GitHub and, if you yourself turn on currency conversion in Premium, the download of public exchange rates from the National Bank of Poland, described below.</p>
     <h2>Controller</h2>
     <p>The controller within the meaning of the GDPR is Firma Usługowa Jarosław Jezierczak (“the Developer”). Contact: jezierczak@gmail.com.</p>
     <h2>Data stored on your phone</h2>
-    <p>The app stores locally: saved calculations and their names, scenarios (yearly plans), settings (theme, language, rates year), whether Premium has been purchased, the most recently downloaded NBP exchange-rate table, and counters used to limit how often ads appear.</p>
+    <p>The app stores locally: saved calculations and their names, scenarios (yearly plans), settings (theme, language, rates year), whether Premium has been purchased, the most recently downloaded NBP exchange-rate table, the most recently downloaded file of yearly rates, and counters used to limit how often ads appear.</p>
     <p>This data is not sent to the Developer. You can delete it by clearing the app’s data or uninstalling the app.</p>
     <p>If Android backup is enabled on your device, the system may store your saved calculations and scenarios and the layout of the Compare and Projection screens in your Google account (settings, Premium status, exchange rates and ad counters are not included in the backup). Google, not the Developer, manages that process, and you can control it in your phone’s settings.</p>
     <h2>Advertising</h2>
@@ -34,10 +34,14 @@
     <p>Currency conversion is an optional Premium feature that you turn on in Options → Currencies (it is off by default in Polish). When it is on, the app downloads the public table of average exchange rates from the National Bank of Poland (api.nbp.pl). The request contains none of your amounts, calculations or personal data.</p>
     <p>As with any internet connection, the NBP server sees technical details of the request, such as the IP address. The Developer does not receive them. NBP describes how it processes data on nbp.pl.</p>
     <p>The most recently downloaded table is stored on your phone, so conversion also works offline. The rate and its date are saved together with a calculation you save, so the result can be reproduced.</p>
+    <h2>Yearly rates</h2>
+    <p>So that the calculator can use up-to-date rates for coming years (for example the minimum wage) without an app update, the app downloads a small file of numbers from a public repository on GitHub (raw.githubusercontent.com, repository jezierczak/salarycalc-rates): the minimum wage, the minimum hourly rate and the average wage for individual years. This happens automatically when the app starts, at most once a day, in all versions of the app and without any action from you.</p>
+    <p>The request does not contain your amounts, calculations or any personal data. Only numbers are downloaded; the app never downloads or runs any code. As with any internet connection, the server the file is downloaded from (GitHub) sees technical details of the request, such as the IP address. The Developer does not receive them. GitHub describes its own data processing at docs.github.com/site-policy/privacy-policies/github-general-privacy-statement.</p>
+    <p>The most recently downloaded file is stored on the phone, so the calculator also works offline, and the rates built into the app always remain as a safeguard.</p>
     <h2>PDF export and sharing</h2>
     <p>A PDF report is created on your phone. It goes only to the app you choose in the share dialog (for example email, messenger or cloud storage). The Developer has no access to it.</p>
     <h2>Internet permission</h2>
-    <p>The app uses the internet only to show ads, to handle the purchase and (optionally, in Premium) to download NBP exchange rates. The calculations themselves work offline.</p>
+    <p>The app uses the internet only to show ads, to handle the purchase, to download current yearly rates and (optionally, in Premium) to download NBP exchange rates. The calculations themselves work offline.</p>
     <h2>Children</h2>
     <p>The app is intended for adults and is not directed at children. We do not knowingly collect children’s data.</p>
     <h2>Your rights</h2>
